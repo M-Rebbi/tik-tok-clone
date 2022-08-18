@@ -1,5 +1,6 @@
 import sanityClient from '@sanity/client';
 
+console.log(process.env.NEXT_PUBLIC_SANITY_TOKEN, 'cleint ts')
 export const client = sanityClient({
   projectId: 'fijv4xd5',
   dataset: 'production',
